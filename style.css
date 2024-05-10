@@ -1,10 +1,33 @@
-div{
-background-color: gold;
-padding: 20px;
-border-radius: 5px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-width: 350px;
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background: linear-gradient(-45deg, #0077ff, #00ffea, #00ff62, #48fd00)
 }
-body{
-    background: linear-gradient(-45deg,  #fd0000, #ff00c8, #ae00ff, #0011ff )
+
+.container {
+    background-color: #000000;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 40px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    color: white;
+}
+.container1{
+    padding-top: 10px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: white;
+}
+h1{
+    position: absolute;
+    top: 15%;
+    left: 41%;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
 }
