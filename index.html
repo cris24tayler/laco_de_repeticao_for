@@ -1,28 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>estilos de musica</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>estilo de musica</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='laco_de_repeticao.js'></script>
 </head>
 <body>
-    <form name="selectForm">
+    <div>
+    <form name="selectForm" class="container">
         <p>
           <label for="tipoMusica"
             >Escolha alguns tipos de música, em seguida, clique no botão
             abaixo:</label
           >
-          <select id="tipoMusica" name="tipoMusica" multiple="multiple">
+          <select id="tipoMusica" name="tipoMusica" multiple="multiple" class="container1">
             <option selected="selected">R&B</option>
             <option>Jazz</option>
             <option>Blues</option>
             <option>New Age</option>
             <option>Classico</option>
             <option>Ópera</option>
+            <option>rap</option>
+            <option>golpel</option>
+            <option>sertanejo</option>
+            <option>Folk</option>
           </select>
         </p>
-        <p><input id="btn" type="button" value="Quantos foram selecionados?" /></p>
+        <p><input id="btn" type="button" value="quantos foram selecionados?" /></p>
       </form>
-      
-</body>
+      </div>
+    </body>
 </html>
